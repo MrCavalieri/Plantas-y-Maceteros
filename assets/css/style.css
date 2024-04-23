@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cabecera {
+  background-image: url("../imgs/fondo-planta.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  text-align: center;
+  color: rgba(206, 206, 206, 0.459);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-shadow: 2px 2px 4px rgba(18, 63, 14, 0.822);
+  letter-spacing: 5px;
+  -webkit-text-stroke: 2px rgb(95, 95, 95);
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+#imagen_cuerpo {
+  width: 3000px;
+}
+#cuerpo {
+  padding: 10px;
+  background-color: rgb(226, 243, 215);
+  background-size: cover;
+  margin-bottom: 120px;
+  margin-top: 200px;
+}
+.tabla {
+  width: 40%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+.producto {
+  border-bottom: 1px solid #ddd;
+}
+.producto td {
+  padding: 12px;
+}
+.foto {
+  width: 130px;
+  height: auto;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  margin-right: 5px;
+}
+.id-product {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+.reseña {
+  margin-top: 5px;
+  color: #666;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+.precio {
+  font-weight: bold;
+  color: #095a09;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+.end {
+  background-color: #93c2a1;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  color: #666;
+  bottom: 0;
+  width: 100%;
+}
+.contacto {
+  padding: 0px;
+  margin: 10px;
+}
+#icon-instagram {
+  width: 30px;
+  margin: 0px 0px 10px 0px;
+}
+
+.producto {
+  border-radius: 10px; /* Borde redondeado para los contenedores de productos */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra para los contenedores de productos */
+  margin-bottom: 20px; /* Espaciado entre los contenedores de los productos */
+}
+
+.tabla {
+  border-collapse: separate; /* Separar los bordes de las celdas */
+  border-spacing: 0 20px; /* Espaciado vertical entre las filas */
+}
+
+.producto td {
+  padding: 12px;
+}
+
+.id-product,
+.reseña,
+.precio {
+  margin: 0; /* Eliminar el margen predeterminado */
+}
